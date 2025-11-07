@@ -1,8 +1,8 @@
-# 🔐 ECC Secure Messenger
+#  ECC Secure Messenger
 
 A Python-based secure messaging application demonstrating Elliptic Curve Cryptography (ECC) concepts for end-to-end encryption, digital signatures, and Perfect Forward Secrecy.
 
-## 📚 Educational Context
+##  Educational Context
 
 This project was developed as part of a personal learning journey in the **Data Privacy (CSD3005)** course at **VIT Bhopal University**. The implementation demonstrates core cryptographic concepts taught in the course under the guidance of **Dr. Sajjad Ahmed**.
 
@@ -14,18 +14,18 @@ This project was developed as part of a personal learning journey in the **Data 
 - **Secure key derivation** using HKDF
 - **Authenticated encryption** with AES-GCM
 
-## 🚀 Features
+##  Features
 
-- **🔑 ECC Key Generation**: Automatic SECP256R1 key pair generation
-- **🤝 Secure Key Exchange**: ECDH-based shared secret derivation
-- **🔒 End-to-End Encryption**: AES-256-GCM encryption with ephemeral keys
-- **✍️ Digital Signatures**: ECDSA message authentication
-- **🛡️ Perfect Forward Secrecy**: Each message uses a unique ephemeral key pair
-- **📱 Contact Management**: Secure public key fingerprint verification
-- **💬 Message History**: Local message tracking with timestamps
-- **🎮 Interactive & Demo Modes**: Both educational demo and hands-on usage
+- ** ECC Key Generation**: Automatic SECP256R1 key pair generation
+- ** Secure Key Exchange**: ECDH-based shared secret derivation
+- ** End-to-End Encryption**: AES-256-GCM encryption with ephemeral keys
+- ** Digital Signatures**: ECDSA message authentication
+- ** Perfect Forward Secrecy**: Each message uses a unique ephemeral key pair
+- ** Contact Management**: Secure public key fingerprint verification
+- ** Message History**: Local message tracking with timestamps
+- ** Interactive & Demo Modes**: Both educational demo and hands-on usage
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 ### Cryptographic Components
 - **Curve**: SECP256R1 (NIST P-256)
@@ -41,13 +41,13 @@ This project was developed as part of a personal learning journey in the **Data 
 - **Key Fingerprints**: SHA-256 hashes for key verification
 - **Authenticated Encryption**: AES-GCM provides confidentiality and integrity
 
-## 📋 Prerequisites
+##  Prerequisites
 
 ```bash
 pip install cryptography
 ```
 
-## 🎯 Usage
+##  Usage
 
 ### Quick Demo
 ```bash
@@ -71,7 +71,7 @@ python3 ecc_messenger.py
 - `demo` - Run the automated demonstration
 - `quit` - Exit the application
 
-## 🔬 Demo Walkthrough
+##  Demo Walkthrough
 
 The automated demo demonstrates:
 
@@ -81,7 +81,7 @@ The automated demo demonstrates:
 4. **Perfect Forward Secrecy**: Each message uses unique ephemeral keys
 5. **Digital Signatures**: All messages are cryptographically signed
 
-## 📖 Code Structure
+##  Code Structure
 
 ```
 ecc_messenger.py
@@ -104,7 +104,7 @@ ecc_messenger.py
 └── interactive_mode()
 ```
 
-## 🔍 Security Analysis
+##  Security Analysis
 
 ### Strengths
 - **Strong Cryptography**: Uses well-established NIST curves and algorithms
@@ -118,7 +118,7 @@ ecc_messenger.py
 - **Local Storage**: Keys and messages stored in memory only
 - **No Metadata Protection**: Message timing and participants are visible
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I gained hands-on experience with:
 - Implementing ECC-based cryptographic protocols
@@ -127,18 +127,18 @@ Through this project, I gained hands-on experience with:
 - Working with industry-standard cryptographic libraries
 - Designing user-friendly security interfaces
 
-## 📚 References & Acknowledgments
+##  References & Acknowledgments
 
 - **Course**: Data Privacy (CSD3005), VIT Bhopal University
 - **Mentor**: Dr. Sajjad Ahmed
 - **Cryptographic Library**: Python `cryptography` package
 - **Standards**: NIST FIPS 186-4 (ECDSA), RFC 5869 (HKDF), NIST SP 800-38D (GCM)
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This is an **educational project** designed to demonstrate cryptographic concepts. It should **not be used for production communication** without proper security auditing, network implementation, and additional security measures.
 
-## 📄 License
+##  License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
